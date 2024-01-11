@@ -47,7 +47,7 @@ nav a:hover {
 main {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 25px;
 }
 
 article {
