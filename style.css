@@ -32,12 +32,12 @@ header {
 }
 
 nav ul {
-    text-align: center;
     list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center the navigation links horizontally */
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
 }
 
