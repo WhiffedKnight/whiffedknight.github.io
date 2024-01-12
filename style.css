@@ -14,49 +14,48 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333 !important;
-    color: #fff !important;
-    padding: 1em !important;
-    text-align: center !important;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
 }
 
 .logo {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo h1 {
-    font-size: 2em !important;
-    margin: 0 !important;
+    font-size: 2em;
+    margin: 0;
 }
 
 nav {
-    margin-top: 10px !important;
+    margin-top: 10px;
 }
 
 nav ul {
-    list-style-type: none !important;
-    padding: 0 !important;
-    display: flex !important;
-    justify-content: center !important;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav li {
-    margin: 0 10px !important;
+    margin: 0 10px;
 }
 
 nav a {
-    color: #fff !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
-    transition: color 0.3s ease-in-out !important;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-    color: #ffcc00 !important;
+    color: #ffcc00;
 }
-
 
 /* Main Content Styles */
 main {
