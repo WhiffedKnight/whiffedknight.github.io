@@ -31,14 +31,20 @@ header {
     margin: 0;
 }
 
+nav {
+    width: 100%;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    text-align: center;
 }
 
 nav li {
+    display: inline;
     margin: 0 10px; /* Adjust margin as needed */
 }
 
@@ -52,7 +58,6 @@ nav a {
 nav a:hover {
     color: #ffcc00;
 }
-
 
 /* Main Content Styles */
 main {
