@@ -11,6 +11,7 @@ body {
     color: #333;
 }
 
+
 /* Header Styles */
 header {
     background-color: #333;
@@ -19,8 +20,15 @@ header {
     text-align: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo horizontally */
+}
+
 .logo h1 {
     font-size: 2em;
+    margin: 0; /* Remove default margin */
 }
 
 nav ul {
