@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8;
+    background-color: #faf5e8;
     color: #333;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333;
+    background-color: #242c3b;
     color: #fff;
     padding: 0.5em; /* Adjust padding as needed */
     text-align: center;
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffcc00;
+    color: #a21f1a;
 }
 
 /* Main Content Styles */
@@ -84,7 +84,7 @@ article p {
 }
 
 article a {
-    color: #007bff;
+    color: #242c3b;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
@@ -93,7 +93,7 @@ article a {
 }
 
 article a:hover {
-    color: #ffcc00;
+    color: #a21f1a;
 }
 
 /* Sidebar Styles */
