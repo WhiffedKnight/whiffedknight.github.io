@@ -11,6 +11,79 @@ body {
     color: #333;
 }
 
+:root {
+    /* Warna Utama */
+    --primary-color: #3498db;  /* Dodger Blue */
+    --secondary-color: #2ecc71;  /* Emerald Green */
+    --accent-color: #e74c3c;  /* Alizarin Crimson */
+
+    /* Warna Teks */
+    --text-color: #333;  /* Black */
+    --link-color: #3498db;  /* Dodger Blue */
+    --link-hover-color: #ffcc00;  /* Yellow */
+
+    /* Warna Latar Belakang */
+    --background-color: #ecf0f1;  /* Clouds */
+    --header-background: #34495e;  /* Wet Asphalt */
+    --footer-background: #34495e;  /* Wet Asphalt */
+
+    /* Warna Border */
+    --border-color: #bdc3c7;  /* Silver */
+}
+
+/* Header Styles */
+header {
+    background-color: var(--header-background);
+    color: var(--text-color);
+}
+
+.logo h1 {
+    color: var(--text-color);
+}
+
+nav a {
+    color: var(--text-color);
+}
+
+nav a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Main Content Styles */
+main {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+}
+
+article h2 {
+    color: var(--primary-color);
+}
+
+article a {
+    color: var(--link-color);
+}
+
+article a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Sidebar Styles */
+aside {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--footer-background);
+    color: var(--text-color);
+}
+
 
 /* Header Styles */
 header {
