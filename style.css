@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #faf5e8;
+    background-color: #f9f8f8;
     color: #333;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #242c3b;
+    background-color: #233454;
     color: #fff;
     padding: 0.5em; /* Adjust padding as needed */
     text-align: center;
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #a21f1a;
+    color: #80939e;
 }
 
 /* Main Content Styles */
@@ -68,23 +68,23 @@ main {
 article {
     width: 46.5%;
     margin-bottom: 30px;
-    background-color: #fff;
+    background-color: #233454;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 article h2 {
-    color: #333;
+    color: #fff;
 }
 
 article p {
-    color: #666;
+    color: #fff;
     line-height: 1.8;
 }
 
 article a {
-    color: #333;
+    color: #a09aac;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
@@ -93,7 +93,7 @@ article a {
 }
 
 article a:hover {
-    color: #a21f1a;
+    color: #80939e;
 }
 
 /* Sidebar Styles */
