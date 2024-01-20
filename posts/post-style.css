@@ -7,44 +7,29 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #faf5e8;
+    background-color: #f8f8f8;
     color: #333;
 }
 
-
-
 /* Header Styles */
 header {
-    background-color: #242c3b;
+    background-color: #333;
     color: #fff;
-    padding: 0.5em; /* Adjust padding as needed */
+    padding: 1em;
     text-align: center;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .logo h1 {
-    font-size: 1.5em; /* Adjust font size as needed */
-    margin: 0;
-}
-
-nav {
-    margin-top: 5px; /* Adjust margin as needed */
+    font-size: 2em;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
-nav li {
-    margin: 0 5px; /* Adjust margin as needed */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 nav a {
@@ -55,19 +40,15 @@ nav a {
 }
 
 nav a:hover {
-    color: #a21f1a;
+    color: #ffcc00;
 }
 
 /* Main Content Styles */
 main {
-    display: flex;
-    justify-content: space-between;
     margin: 25px;
 }
 
 article {
-    width: 46.5%;
-    margin-bottom: 30px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -84,16 +65,9 @@ article p {
 }
 
 article a {
-    color: #333;
+    color: #007bff;
     text-decoration: none;
     font-weight: bold;
-    display: inline-block;
-    margin-top: 10px;
-    transition: color 0.3s ease-in-out;
-}
-
-article a:hover {
-    color: #a21f1a;
 }
 
 /* Sidebar Styles */
