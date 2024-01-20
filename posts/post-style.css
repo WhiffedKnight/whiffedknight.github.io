@@ -7,29 +7,44 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8;
+    background-color: #f9f8f8;
     color: #333;
 }
 
+
+
 /* Header Styles */
 header {
-    background-color: #333;
+    background-color: #233454;
     color: #fff;
-    padding: 1em;
+    padding: 0.5em; /* Adjust padding as needed */
     text-align: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo h1 {
-    font-size: 2em;
+    font-size: 1.5em; /* Adjust font size as needed */
+    margin: 0;
+}
+
+nav {
+    margin-top: 5px; /* Adjust margin as needed */
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+nav li {
+    margin: 0 5px; /* Adjust margin as needed */
 }
 
 nav a {
@@ -40,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffcc00;
+    color: #80939e;
 }
 
 /* Main Content Styles */
@@ -49,18 +64,18 @@ main {
 }
 
 article {
-    background-color: #fff;
+    background-color: #233454;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 article h2 {
-    color: #333;
+    color: #fff;
 }
 
 article p {
-    color: #666;
+    color: #fff;
     line-height: 1.8;
 }
 
